@@ -1,5 +1,5 @@
 import { useEffect, useState } from "preact/hooks";
-import { type Device } from "@spotify/web-api-ts-sdk";
+import { type Device } from "@/lib/spotify/placeholder.ts";
 import Reload from "tabler-icons/tsx/reload.tsx";
 import InfoCircle from "tabler-icons/tsx/info-circle.tsx";
 import Tooltip from "@/islands/tooltip.tsx";

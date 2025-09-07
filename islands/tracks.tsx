@@ -7,7 +7,7 @@ import { PlaylistModal } from "@/islands/playlist.tsx";
 import Tooltip from "@/islands/tooltip.tsx";
 import { ERROR, SONGS } from "@/lib/signals/songs.ts";
 import { testSongs } from "@/lib/test/data.ts";
-import { type Device, type Track } from "@spotify/web-api-ts-sdk";
+import { type Device, type Track } from "@/lib/spotify/placeholder.ts";
 import X from "tabler-icons/tsx/x.tsx";
 import { type FormEvent } from "preact/compat";
 import { useRef, useState } from "preact/hooks";

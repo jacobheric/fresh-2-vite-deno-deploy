@@ -1,8 +1,7 @@
-import { type Image } from "@spotify/web-api-ts-sdk";
 import { useEffect, useRef, useState } from "preact/hooks";
 
 export const Cover = (
-  { images }: { images: Image[] },
+  { images }: { images: any[] },
 ) => {
   const dropdownRef = useRef<HTMLDivElement>(null);
   const [showDropdown, setShowDropdown] = useState(false);
@@ -43,7 +42,7 @@ export const Cover = (
     >
       <img
         className="object-fill rounded"
-        src={images.find((i: Image) => i.height === 300)?.url}
+        src={images.find((i: any) => i.height === 300)?.url}
       />
 
       {showDropdown && (
@@ -51,7 +50,7 @@ export const Cover = (
           <div class="relative max-w-[640px] bg-transparent rounded">
             <img
               className="w-auto max-w-full max-h-[90vh] object-contain rounded border shadow-md"
-              src={images.find((i: Image) => i.height === 640)?.url}
+              src={images.find((i: any) => i.height === 640)?.url}
             />
           </div>
         </div>

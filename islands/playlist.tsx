@@ -1,5 +1,5 @@
 import { Button } from "@/islands/button.tsx";
-import { type Playlist } from "@spotify/web-api-ts-sdk";
+import { type Playlist } from "@/lib/spotify/placeholder.ts";
 import { type FormEvent } from "preact/compat";
 import { useEffect, useState } from "preact/hooks";
 

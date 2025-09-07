@@ -4,7 +4,7 @@ import {
   type Playlist,
   type Track,
   type User,
-} from "@spotify/web-api-ts-sdk";
+} from "./placeholder.ts";
 import { SpotifyToken } from "./token.ts";
 
 export const spotifyLoginRedirect = () => redirect("/spotify/login");

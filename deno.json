@@ -28,7 +28,6 @@
     "@preact/signals": "npm:@preact/signals@^2",
     "@std/dotenv": "jsr:@std/dotenv",
     "@std/encoding": "jsr:@std/encoding",
-    "@spotify/web-api-ts-sdk": "npm:@spotify/web-api-ts-sdk",
     "@std/http": "jsr:@std/http",
     "@std/assert": "jsr:@std/assert",
     "@supabase/ssr": "npm:@supabase/ssr",

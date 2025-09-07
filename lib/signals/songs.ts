@@ -1,4 +1,4 @@
-import { type Track } from "@spotify/web-api-ts-sdk";
+import { type Track } from "@/lib/spotify/placeholder.ts";
 import { signal } from "@preact/signals";
 
 export const SONGS = signal<Track[]>([]);

@@ -1,6 +1,6 @@
 import { Logo } from "@/components/logo.tsx";
 import { ERROR, SONGS } from "@/lib/signals/songs.ts";
-import { type Track } from "@spotify/web-api-ts-sdk";
+import { type Track } from "@/lib/spotify/placeholder.ts";
 import { IS_BROWSER } from "fresh/runtime";
 import { type FormEvent } from "preact/compat";
 import { useEffect, useState } from "preact/hooks";
