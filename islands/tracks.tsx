@@ -194,7 +194,7 @@ export const Tracks = ({ test }: { test?: boolean }) => {
                   submitType={submitTypeRef.current!}
                   singleTrack={singleTrackRef.current!}
                   trackURI={song.uri}
-                  spotifyURI={song.external_urls?.spotify}
+                  spotifyURI={song.external_urls?.spotify || ""}
                 />
               </div>
               <div>
